@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      "他是狗，你们便是苟奴隶"
+title:      "First post"
 subtitle:   ""
-date:       2017-06-24 12:00:00
-author:     "Hux"
+date:       2017-10-15 12:00:00
+author:     "Tony"
 catalog: true
 header-img: ""
 ---

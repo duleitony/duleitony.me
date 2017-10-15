@@ -4,7 +4,7 @@ title:      "The first post"
 subtitle:   ""
 date:       2017-10-15 12:00:00
 author:     "Tony"
-catalog: true
+catalog:    true
 header-img: ""
 ---
 
