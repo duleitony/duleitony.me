@@ -20,4 +20,3 @@ Record what I learned and found at my daily life and work.
 ## TODO
 
 1. Clean up what I wrote before and move to here.
-
