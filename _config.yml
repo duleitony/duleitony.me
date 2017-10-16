@@ -1,14 +1,13 @@
 # Site settings
 title: Tony Blog
 SEOTitle: Tony的博客 | Tony Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg-pc.jpg
 email: duleitony@gmail.com
-description: ""
-keyword: "支付，信用卡，Fintech，金融，在线支付， 博客, 个人网站, 互联网, 前端, 设计, 产品"
+description: "Tony用来记录的地方"
+keyword: "支付，信用卡，Fintech，金融，在线支付， 博客, 个人网站, 互联网, 互联网金融"
 url: "http://duleitony.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
-
-
+encoding: UTF-8
 
 # SNS settings
 RSS: false
@@ -47,7 +46,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+#disqus_username: hux
 
 # Netease setttings
 netease_comment: false
@@ -67,7 +66,7 @@ ga_domain: duleitony.me
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Keep hungry Keep foolish，<br>一花一世界，一叶一菩提"
-sidebar-avatar: /img/duleitony.me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-tony.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
