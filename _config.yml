@@ -83,12 +83,12 @@ service-worker: true
 
 
 # Friends
-friends: [
-    {
+#friends: [
+#    {
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "凤凰老熊",
-        href: "http://blog.lixf.cn/"
-    }
-]
+#        title: "凤凰老熊",
+#        href: "http://blog.lixf.cn/"
+#    }
+#s]
