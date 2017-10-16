@@ -1,0 +1,21 @@
+---
+layout:     post
+title:      "How credit card works"
+subtitle:   ""
+date:       2017-10-16 12:00:00
+author:     "Tony"
+catalog: true
+header-img: "home-bg-o.jpg"
+---
+
+## Credit Card
+
+This is Tony's first post. I don't know what I should write at this moment.
+
+## How it works
+
+Authorize and capture.
+
+## Auth
+
+Block the fund from user's credit card acount.
