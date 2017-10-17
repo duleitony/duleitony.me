@@ -10,12 +10,12 @@ baseurl: ""                             # for example, '/blog' if your blog host
 encoding: UTF-8
 
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username:     dulei
 # zhihu_username:     dulei
 # github_username:    Tony-dulei
 facebook_username:  lei.du.tony
-# linkedin_username:  firstname-lastname-idxxxx
+linkedin_username:  lei-du-34292a92
 
 
 
