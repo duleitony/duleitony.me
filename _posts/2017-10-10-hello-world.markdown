@@ -1,17 +1,19 @@
 ---
 layout:     post
-title:      "Hello World!"
-subtitle:   ""
+title:      "Hello World"
+subtitle:   "Hello Blog"
 date:       2017-10-10 12:00:00
 author:     "Tony"
 catalog: true
-header-img: ""
+header-img: "img/blog-bg.jpg""
 ---
 
-## Hello
+> Yeah, this is Tony.
+
+## Why I start
 
 Hello World!
 
-## Hello 2
+## How I start
 
 Hello World!
