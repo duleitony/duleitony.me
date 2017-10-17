@@ -64,14 +64,14 @@ ga_domain: duleitony.me
 
 
 # Sidebar settings
-sidebar: false                           # whether or not using Sidebar.
-sidebar-about-description: "Keep hungry Keep foolish，<br>一花一世界，一叶一菩提"
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Keep hungry keep foolish，<br>喝喝咖啡，写写程序ß"
 sidebar-avatar: /img/avatar-tony.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tagss
-featured-tags: false                     # whether or not using Feature-Tags
+featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 
