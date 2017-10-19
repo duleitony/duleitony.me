@@ -11,9 +11,9 @@ encoding: UTF-8
 
 # SNS settings
 RSS: true
-# weibo_username:     dulei
-# zhihu_username:     dulei
-# github_username:    Tony-dulei
+# weibo_username:   duleitony
+# zhihu_username:   duleitony
+# github_username:  duleitony
 facebook_username:  lei.du.tony
 linkedin_username:  lei-du-34292a92
 
