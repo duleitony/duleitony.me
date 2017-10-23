@@ -28,7 +28,7 @@ Here is the definition by Martin:
 | API Gateway		    | TBD    |N    |
 | Circuit Breaker	    | TBD    |N    |
 | Load Balancing      	| TBD    |N    |
-| Config            	| TBD    |N    |
+| Centralizing Config  	| TBD    |N    |
 | Distributed Tracing   | TBD    |N    |
 | Centralizing Logging	| TBD    |N    |
 | Monitoring            | TBD    |N    |
