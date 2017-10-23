@@ -21,35 +21,31 @@ Here is the definition by Martin:
 
 ## Components in Microservice
 
-| Component  	| Responsibilites   | Required         |Stack             |
-|-------------	|-----------------	|----------------- |----------------- |
-| Service Regisger&Discovery 	| TBD    | Y| Netflix Eureka, Zookeeper, HashicorpConsul|
-| API Gateway		|  TBD      |N|Netfix Zuul|
-| Load Balancing			| TBD  |N|Netfix Ribon|
-| Centralizing Logging			| TBD  |N|ELK Stack (LogStash)|
-| Disbributed Tracing			| TBD  |N|Spring Cloud Seulth, Zipkin, Pinpoint, Skywalking|
-| Monitor 	| TBD			|Y||
+| Component  	| Responsibilites   | Required         |
+|-------------	|-----------------	|----------------- |
+| Service Register 	    | TBD    |Y    |
+| Service Communication | TBD    |Y    |
+| API Gateway		    | TBD    |N    |
+| Circuit Breaker	    | TBD    |N    |
+| Load Balancing      	| TBD    |N    |
+| Config            	| TBD    |N    |
+| Distributed Tracing   | TBD    |N    |
+| Centralizing Logging	| TBD    |N    |
+| Monitoring            | TBD    |N    |
 
 
 
 
-## Microservices Concerns and Tech Stacks
+## Microservices Components and Tech Stacks
 
-In Microservice, what protocol should be used to build Microservices is a hot topic.
-Basically, focusing on these two options: RPC or RESTful
-
-### RPC - Remote Procedure Call
-
-| Framework  	| Features List     	|
-|-------------	|-----------------	|
-| Apache Thrift 	| 	数据定义／RPC服务			|
-| Dubbo 	| 无			|
-| Google Protobuf		|  数据定义      |
-| gRPC			| RPC服务  |
-
-### RESTful
-
-* Spring Cloud
-
-
-
+| Component  	 | Dubbo            | Spring Cloud    | Open-source |
+|--------------	 |-----------------	|-----------------|-----------------|
+| Service Register      |Zookeeper  |Netflix Eureka   | Cousel|
+| Service Communication |RPC        |REST API         | Apache Thrift, gRPC|
+| API Gateway           |N/A        |Netfix Zuul|     ||
+| Circuit Breaker       |?          |Netflix Hystrix  ||
+| Load Balancing        |?    |||
+| Config                |?    |Spring Config||
+| Distributed Tracing   |?    |Spring Cloud Seulth |Zipkin, Pinpoint, Skywalking||
+| Centralizing Logging  |?    |ELK Stack (LogStash)||
+| Monitoring            |?    |||
