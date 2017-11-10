@@ -18,7 +18,7 @@ header-img: "img/blog-bg.jpg"
 | ------------- |:-------------:|
 | -Xms          | For setting the initial heap size when JVM starts |
 | -Xmx     | For setting the maximum heap size.      |
-| -Xmn  | For setting the size of the Young Generation, rest of the space goes for Old Generation.     |
+| -Xmn  | For setting the size of the Young Generation, rest of the space goes for Old Generation. |
 | -XX:PermGen  | For setting the maximum size of Perm Gen   |   
 | -XX:MaxPermGen  | For setting the initial size of the Permanent Generation memory.   |
 | -XX:MetaspaceSize   | The Maximum Metaspace size for your application.   |
