@@ -1,0 +1,24 @@
+---
+layout:     post
+title:      "JVM Heap in Java8 and Java9"
+subtitle:   "Java-JVM-01"
+date:       2017-11-10 11:00:00
+author:     "Tony"
+catalog: true
+tag: [Java]
+header-img: "img/blog-bg.jpg"
+---
+
+> Java JVM的Heap构成
+
+## 一， Java8和Java9中Heap的构成及区别？
+![](/img/in-post/20171110-jvm-heap.png)
+
+| VM SWITCH	    |  DESCRIPTION  |
+| ------------- |:-------------:|
+| -Xms          | For setting the initial heap size when JVM starts |
+| -Xmx     | For setting the maximum heap size.      |  
+| -Xmn  | For setting the size of the Young Generation, rest of the space goes for Old Generation.     |   
+| -XX:PermGen  | For setting the maximum size of Perm Gen   |   
+| -XX:MaxPermGen  | For setting the initial size of the Permanent Generation memory.   |   
+| -XX:MetaspaceSize   | The Maximum Metaspace size for your application.   |   
