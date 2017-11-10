@@ -5,7 +5,7 @@ subtitle:   ""
 date:       2017-10-27 10:00:00
 author:     "Tony"
 catalog: true
-tag: [支付系统架构]
+tag: [支付系统]
 header-img: "img/blog-bg.jpg"
 ---
 
