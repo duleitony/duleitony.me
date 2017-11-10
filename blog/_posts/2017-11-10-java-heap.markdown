@@ -9,9 +9,9 @@ tag: [Java]
 header-img: "img/blog-bg.jpg"
 ---
 
-> Java JVM的Heap构成
+> Java JVM Heap
 
-## 一， Java8和Java9中Heap的构成及区别？
+## Heap architecture in Java8 and Java9
 ![](/img/in-post/20171110-jvm-heap.png)
 
 | VM SWITCH	    |  DESCRIPTION  |
