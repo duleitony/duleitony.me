@@ -1,4 +1,4 @@
-﻿---
+---
 layout:     post
 title:      "JVM Heap in Java8 and Java9"
 subtitle:   "Java-JVM-01"
