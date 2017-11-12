@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "JVM Heap in Java8 and Java9"
-subtitle:   "Java-JVM-01"
+subtitle:   "Java-JVM-Heap"
 date:       2017-11-10 11:00:00
 author:     "Tony"
 catalog: true
