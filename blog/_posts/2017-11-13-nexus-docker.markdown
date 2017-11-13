@@ -25,7 +25,6 @@ $ xxx@localhost:~$ docker version
 Client:
  Version:      1.12.6
  API version:  1.24
- Go version:   go1.7.4
  Git commit:   78d1802
  Built:        Tue Mar 14 09:47:15 2017
  OS/Arch:      linux/amd64
