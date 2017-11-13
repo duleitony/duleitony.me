@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      "Build a Private Maven Repo with Docker"
 subtitle:   ""
