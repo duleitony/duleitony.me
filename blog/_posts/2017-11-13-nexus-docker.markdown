@@ -11,13 +11,13 @@ header-img: "img/blog-bg.jpg"
 
 > Let's try building a private maven repository with Nexus by Docker.
 
-## ????
-1. VPS
+## 安装环境
+1. VPS一台
 2. Ubuntu 17.04
 
 ## Installation
 
-??docker:
+安装docker:
 
 ```bash
 $ sudo apt install docker.io
@@ -32,14 +32,14 @@ Cannot connect to the Docker daemon. Is the docker daemon running on this host?
 
 ```
 
-??docker:
+启动docker:
 
 ```bash
 $ sudo systemctl start docker
 $ sudo service docker start
 ```
 
-??nexus???
+查找nexus
 ```bash
 $ docker search nexus
 NAME                                         DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
@@ -70,13 +70,13 @@ openfrontier/nexus                           Official Nexus docker plus p2 plugi
 enieuw/nexus3-oss                            nexus3-oss                                      0                    [OK]
 ```
 
-????????????????:sonatype/nexus
+安装一个分数最高的:
 
 ```bash
 $  sudo docker pull sonatype/nexus
 ```
 
-???????
+启动容器
 
 ```bash
 $ sudo docker run -d -p 8081:8081 --name nexus sonatype/nexus
@@ -85,5 +85,5 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 f84a4bb18aec        sonatype/nexus      "/bin/sh -c '${JAVA_H"   22 minutes ago      Up 22 minutes       0.0.0.0:8081->8081/tcp   nexus
 ```
 
-??????????????? admin admin123
+访问测试，默认的帐户和密码 admin admin123
 http://127.0.0.1:8081/nexus/
