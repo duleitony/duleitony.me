@@ -12,7 +12,7 @@ header-img: "img/blog-bg.jpg"
 > Let's try building a private maven repository with Nexus by Docker.
 
 ## 安装环境
-1. VPS一台
+1. VPS一台 
 2. Ubuntu 17.04
 
 ## Installation
