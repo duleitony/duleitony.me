@@ -11,7 +11,7 @@ header-img: "img/blog-bg.jpg"
 
 > Java JVM Class Loader Subsystem  
 
-## Loading
+## Loading 
 Classes will be loaded by this component. Boot Strap class Loader, Extension class Loader, and Application class Loader are the three class loader which will help in achieving it.
 
 Boot Strap ClassLoader – Responsible for loading classes from the bootstrap classpath, nothing but rt.jar. Highest priority will be given to this loader.

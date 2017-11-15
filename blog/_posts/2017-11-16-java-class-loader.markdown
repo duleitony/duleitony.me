@@ -16,7 +16,7 @@ Classes will be loaded by this component. Boot Strap class Loader, Extension cla
 
 Boot Strap ClassLoader – Responsible for loading classes from the bootstrap classpath, nothing but rt.jar. Highest priority will be given to this loader.
 Extension ClassLoader – Responsible for loading classes which are inside ext folder (jre\lib).
-Application ClassLoader –Responsible for loading Application Level Classpath, path mentioned Environment Variable etc.
+Application ClassLoader –Responsible for loading Application Level Classpath, path mentioned Environment Variable etc. 
 The above Class Loaders will follow Delegation Hierarchy Algorithm while loading the class files.
 
 ##  Linking
