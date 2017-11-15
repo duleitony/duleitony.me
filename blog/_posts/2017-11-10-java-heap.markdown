@@ -9,9 +9,9 @@ tag: [Java]
 header-img: "img/blog-bg.jpg"
 ---
 
-> Java JVM Heap
+> Java JVM Runtime Data Area
 
-## Heap architecture in Java8 and Java9
+## Heap architecture
 ![](/img/in-post/20171110-jvm-heap.png)
 
 ## Heap tuning parameters
